@@ -1,0 +1,5 @@
+Flask==2.0.0
+Jinja2==3.0.0
+pipenv==2020.11.15
+pylint==2.6.0
+requests==2.25.1

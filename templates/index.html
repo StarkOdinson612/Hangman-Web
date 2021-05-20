@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Hangman Python
+        </title>
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    </head>
+    <body>
+        <div id="title">
+            <h1>
+                Hangman Web
+            </h1>
+        </div>
+        <div id="content">
+            <a href="{{ url_for('multiplayer') }}" class="multiplayer"> MULTIPLAYER </a>
+            <a href="{{ url_for('multiplayer') }}" class = "singleplayer"> SINGLEPLAYER </a>
+        </div>
+    </body>
+</html>
