@@ -1,0 +1,8 @@
+[tool]
+[tool.poetry]
+name="HangMan Web"
+versio"0.1.0"
+authors = ["Stark darkknightishaan@gmail.com"]
+[tool.poetry.dependencies]
+flask = "^1.1"
+python = "^3.8"
