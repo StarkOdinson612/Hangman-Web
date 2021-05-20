@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [tool]
 [tool.poetry]
 name="HangMan Web"
@@ -6,3 +7,21 @@ authors = ["Stark darkknightishaan@gmail.com"]
 [tool.poetry.dependencies]
 flask = "^1.1"
 python = "^3.8"
+=======
+[tool.poetry]
+name = "HangMan Web"
+version = "0.1.0"
+description = "A web version of the popular game, available in single and multi-player"
+authors = ["StarkOdinson612 <darkknightishaan@gmail.com>"]
+license = "C BY-NC-SA 4.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+>>>>>>> origin/main
